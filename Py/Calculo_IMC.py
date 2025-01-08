@@ -6,7 +6,6 @@ janela.geometry('500x300')  # Define o tamanho da interface
 janela.resizable(False, False)  # bloqueia que o usuário altere o tamanho da interface
 
 
-
 def calcular():
     try:
         peso_valor = float(peso.get())  # Obtém o valor inserido no campo de entrada "peso"
